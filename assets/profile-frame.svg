@@ -1,0 +1,16 @@
+<svg width="420" height="420" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Profile picture frame">
+  <defs>
+    <linearGradient id="g" x1="30" y1="20" x2="390" y2="398" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF"/>
+      <stop offset=".5" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#FF2D95"/>
+    </linearGradient>
+    <style>@keyframes spin{to{transform:rotate(360deg)}}.ring{transform-origin:210px 210px;animation:spin 16s linear infinite}</style>
+  </defs>
+  <rect width="420" height="420" rx="96" fill="#050816"/>
+  <circle cx="210" cy="210" r="158" fill="#081526" stroke="url(#g)" stroke-width="10"/>
+  <g class="ring">
+    <path d="M210 28V66M210 354V392M28 210H66M354 210H392M81 81L108 108M312 312L339 339M339 81L312 108M108 312L81 339" stroke="#00F5FF" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <circle cx="210" cy="210" r="119" stroke="#B9F7FF" stroke-width="2" stroke-dasharray="10 12"/>
+</svg>

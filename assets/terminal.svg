@@ -1,0 +1,31 @@
+<svg width="980" height="430" viewBox="0 0 980 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI systems boot terminal">
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="980" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF"/>
+      <stop offset=".5" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#FF2D95"/>
+    </linearGradient>
+    <style>
+      @keyframes glow { 0%,100%{opacity:.55} 50%{opacity:1} }
+      @keyframes caret { 50%{opacity:0} }
+      .ok { animation: glow 2.4s ease-in-out infinite; }
+      .caret { animation: caret .9s steps(1) infinite; }
+      text { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+    </style>
+  </defs>
+  <rect width="980" height="430" rx="28" fill="#050816"/>
+  <rect x="1.5" y="1.5" width="977" height="427" rx="26.5" stroke="url(#border)" stroke-width="3"/>
+  <rect x="24" y="24" width="932" height="60" rx="18" fill="#0B1F31"/>
+  <circle cx="62" cy="54" r="9" fill="#FF2D95"/>
+  <circle cx="92" cy="54" r="9" fill="#FFF3A3"/>
+  <circle cx="122" cy="54" r="9" fill="#00F5FF"/>
+  <text x="156" y="62" fill="#92DDEA" font-size="19">/ai-os/runtime/agent-mesh</text>
+  <text x="44" y="133" fill="#00F5FF" font-size="24">&gt; booting AI systems...</text>
+  <text x="44" y="178" fill="#B9F7FF" font-size="24">&gt; loading autonomous agents...</text>
+  <text x="44" y="223" fill="#B9F7FF" font-size="24">&gt; Claude Code connected</text>
+  <text x="44" y="268" fill="#B9F7FF" font-size="24">&gt; Gemini connected</text>
+  <text x="44" y="313" fill="#B9F7FF" font-size="24">&gt; Codex connected</text>
+  <text x="44" y="358" fill="#B9F7FF" font-size="24">&gt; OpenCode connected</text>
+  <text class="ok" x="44" y="403" fill="#FFF3A3" font-size="26" font-weight="800">&gt; System Online</text>
+  <rect class="caret" x="294" y="381" width="14" height="27" fill="#00F5FF"/>
+</svg>

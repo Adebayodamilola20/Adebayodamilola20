@@ -1,0 +1,50 @@
+<svg width="1200" height="640" viewBox="0 0 1200 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI Operating System dashboard">
+  <defs>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1200" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF"/>
+      <stop offset=".55" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#FF2D95"/>
+    </linearGradient>
+    <style>
+      @keyframes pulse { 0%,100%{opacity:.38} 50%{opacity:1} }
+      @keyframes move { to { stroke-dashoffset:-260; } }
+      .wire { stroke-dasharray:12 16; animation: move 9s linear infinite; }
+      .pulse { animation:pulse 2.8s ease-in-out infinite; }
+      text { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="640" rx="34" fill="#06101D"/>
+  <rect x="1.5" y="1.5" width="1197" height="637" rx="32.5" stroke="url(#stroke)" stroke-width="3"/>
+  <text x="48" y="66" fill="#F8FBFF" font-size="28" font-weight="800">AI OPERATING SYSTEM</text>
+  <text x="48" y="102" fill="#86AFC2" font-size="17">Founder command center for autonomous product engineering.</text>
+  <g transform="translate(48 142)">
+    <rect width="316" height="170" rx="20" fill="#0B1F31" stroke="#234A64"/>
+    <text x="24" y="42" fill="#00F5FF" font-size="18" font-weight="800">AGENT MESH</text>
+    <text x="24" y="92" fill="#F8FBFF" font-size="44" font-weight="900">24/7</text>
+    <text x="24" y="130" fill="#8CAFC5" font-size="17">research · code · review · ship</text>
+  </g>
+  <g transform="translate(408 142)">
+    <rect width="316" height="170" rx="20" fill="#0B1F31" stroke="#234A64"/>
+    <text x="24" y="42" fill="#FFB8DF" font-size="18" font-weight="800">MODEL ROUTER</text>
+    <text x="24" y="92" fill="#F8FBFF" font-size="44" font-weight="900">4 cores</text>
+    <text x="24" y="130" fill="#8CAFC5" font-size="17">OpenAI · Anthropic · Gemini · local</text>
+  </g>
+  <g transform="translate(768 142)">
+    <rect width="384" height="170" rx="20" fill="#0B1F31" stroke="#234A64"/>
+    <text x="24" y="42" fill="#FFF3A3" font-size="18" font-weight="800">BUILD PIPELINE</text>
+    <text x="24" y="92" fill="#F8FBFF" font-size="44" font-weight="900">idea → prod</text>
+    <text x="24" y="130" fill="#8CAFC5" font-size="17">Next.js · Flutter · FastAPI · Docker</text>
+  </g>
+  <g transform="translate(62 370)">
+    <path class="wire" d="M0 60C176 -10 280 120 426 54C575 -14 630 122 780 62C890 18 1002 24 1080 80" stroke="url(#stroke)" stroke-width="3"/>
+    <circle class="pulse" cx="0" cy="60" r="12" fill="#00F5FF"/>
+    <circle class="pulse" cx="426" cy="54" r="12" fill="#FF2D95"/>
+    <circle class="pulse" cx="780" cy="62" r="12" fill="#FFF3A3"/>
+    <circle class="pulse" cx="1080" cy="80" r="12" fill="#7C3AED"/>
+  </g>
+  <g transform="translate(48 468)">
+    <rect width="1104" height="118" rx="22" fill="#081827" stroke="#234A64"/>
+    <text x="28" y="48" fill="#B9F7FF" font-size="20" font-weight="700">Current mission</text>
+    <text x="28" y="84" fill="#F8FBFF" font-size="24" font-weight="800">Turn autonomous AI agents into practical products for founders, operators, and security teams.</text>
+  </g>
+</svg>

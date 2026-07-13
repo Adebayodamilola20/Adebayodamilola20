@@ -1,0 +1,36 @@
+<svg width="520" height="680" viewBox="0 0 520 680" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Adebayo Stephen profile identity card">
+  <defs>
+    <linearGradient id="g" x1="44" y1="30" x2="476" y2="644" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF"/>
+      <stop offset=".5" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#FF2D95"/>
+    </linearGradient>
+    <clipPath id="avatarClip">
+      <circle cx="260" cy="220" r="134"/>
+    </clipPath>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes rotate { to { transform: rotate(360deg); } }
+      .ring { transform-origin:260px 220px; animation: rotate 18s linear infinite; }
+      text { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    </style>
+  </defs>
+  <rect width="520" height="680" rx="42" fill="#050816"/>
+  <rect x="2" y="2" width="516" height="676" rx="40" stroke="url(#g)" stroke-width="4"/>
+  <circle cx="260" cy="220" r="166" fill="#081526" stroke="#12324A" stroke-width="2"/>
+  <g class="ring" filter="url(#glow)">
+    <path d="M260 38v36M260 366v36M78 220h36M406 220h36M131 91l25 25M364 324l25 25M389 91l-25 25M156 324l-25 25" stroke="#00F5FF" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <image href="https://github.com/Adebayodamilola20.png" x="126" y="86" width="268" height="268" clip-path="url(#avatarClip)" preserveAspectRatio="xMidYMid slice"/>
+  <circle cx="260" cy="220" r="136" stroke="url(#g)" stroke-width="8"/>
+  <circle cx="260" cy="220" r="152" stroke="#B9F7FF" stroke-width="2" stroke-dasharray="10 13"/>
+  <text x="260" y="435" text-anchor="middle" fill="#F8FBFF" font-size="34" font-weight="900">ADEBAYO STEPHEN</text>
+  <text x="260" y="475" text-anchor="middle" fill="#00F5FF" font-size="18" font-weight="800">AI ENGINEER · FOUNDER</text>
+  <rect x="58" y="518" width="404" height="74" rx="18" fill="#0B1F31" stroke="#234A64"/>
+  <text x="260" y="550" text-anchor="middle" fill="#B9F7FF" font-size="17" font-weight="700">Autonomous AI Systems</text>
+  <text x="260" y="577" text-anchor="middle" fill="#8CAFC5" font-size="15">RELIC · Patrol · Agent Mesh · Multi-Agent OS</text>
+  <text x="260" y="632" text-anchor="middle" fill="#FFF3A3" font-size="16" font-weight="800">@Adebayodamilola20</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Adebayo Stephen AI monogram</title>
+  <desc id="desc">Custom AS monogram inside an autonomous AI core.</desc>
+  <defs>
+    <linearGradient id="g" x1="78" y1="64" x2="442" y2="454" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF"/>
+      <stop offset="0.55" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#FF2D95"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes rotate { to { transform: rotate(360deg); } }
+      .orbit { transform-origin: 256px 256px; animation: rotate 12s linear infinite; }
+    </style>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#050816"/>
+  <circle cx="256" cy="256" r="178" fill="#081526" stroke="url(#g)" stroke-width="10" filter="url(#glow)"/>
+  <g class="orbit">
+    <path d="M256 42V96M256 416V470M42 256H96M416 256H470M105 105L143 143M369 369L407 407M407 105L369 143M143 369L105 407" stroke="#00F5FF" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <path d="M139 345L220 154H272L354 345H302L288 308H204L190 345H139ZM220 266H273L247 197L220 266Z" fill="url(#g)"/>
+  <path d="M326 344C302 344 279 338 260 326L279 287C296 298 313 304 329 304C345 304 354 299 354 289C354 282 350 278 341 275L306 263C279 254 266 236 266 210C266 191 273 175 288 164C303 153 323 147 348 147C371 147 391 152 407 163L388 201C374 193 360 189 346 189C330 189 322 194 322 204C322 211 327 216 338 219L371 231C398 240 412 258 412 285C412 303 405 318 390 329C375 339 354 344 326 344Z" fill="#F8FBFF" opacity="0.92"/>
+</svg>

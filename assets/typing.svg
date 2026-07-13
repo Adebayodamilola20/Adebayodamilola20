@@ -1,0 +1,26 @@
+<svg width="1200" height="120" viewBox="0 0 1200 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated AI founder typing line">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1200" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF"/>
+      <stop offset="0.48" stop-color="#B9F7FF"/>
+      <stop offset="1" stop-color="#FF2D95"/>
+    </linearGradient>
+    <style>
+      @keyframes reveal { 0%,12%{width:0} 44%,62%{width:1040px} 82%,100%{width:0} }
+      @keyframes blink { 50%{opacity:0} }
+      .mask { animation: reveal 8s steps(64,end) infinite; }
+      .cursor { animation: blink .8s step-end infinite; }
+      text { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+    </style>
+    <clipPath id="clip">
+      <rect class="mask" x="70" y="0" height="120" rx="4"/>
+    </clipPath>
+  </defs>
+  <rect width="1200" height="120" rx="24" fill="#07111F"/>
+  <rect x="1" y="1" width="1198" height="118" rx="23" stroke="#234A64"/>
+  <circle cx="34" cy="60" r="9" fill="#00F5FF"/>
+  <g clip-path="url(#clip)">
+    <text x="70" y="70" fill="url(#line)" font-size="34" font-weight="700">founder@future-ai:~$ architecting autonomous AI systems</text>
+  </g>
+  <rect class="cursor" x="1116" y="36" width="16" height="44" rx="2" fill="#00F5FF"/>
+</svg>

@@ -1,0 +1,92 @@
+<svg width="1600" height="560" viewBox="0 0 1600 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">ADEBAYO STEPHEN AI systems founder banner</title>
+  <desc id="desc">Futuristic cyberpunk hero banner with animated neural grid, orbital AI core, and startup founder positioning.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset="0.45" stop-color="#081526"/>
+      <stop offset="1" stop-color="#12051E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="208" y1="114" x2="1310" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF"/>
+      <stop offset="0.52" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#FF2D95"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="580" y1="84" x2="1180" y2="438" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF3A3"/>
+      <stop offset="0.5" stop-color="#00F5FF"/>
+      <stop offset="1" stop-color="#FF2D95"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0  0 0 0 0 0.86  0 0 0 0 1  0 0 0 0.8 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+    <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M 52 0 L 0 0 0 52" stroke="#163953" stroke-width="1" opacity="0.45"/>
+    </pattern>
+    <style>
+      @keyframes pulse { 0%,100%{opacity:.35} 50%{opacity:1} }
+      @keyframes dash { to { stroke-dashoffset: -480; } }
+      @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-14px)} }
+      @keyframes scan { 0%{transform:translateX(-320px)} 100%{transform:translateX(1700px)} }
+      .dash { stroke-dasharray: 18 20; animation: dash 16s linear infinite; }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; }
+      .float { animation: float 6s ease-in-out infinite; transform-origin:center; }
+      .scan { animation: scan 6.5s linear infinite; }
+      text { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="560" fill="url(#bg)"/>
+  <rect width="1600" height="560" fill="url(#grid)" opacity="0.55"/>
+  <path d="M0 433C208 328 292 510 484 380C661 260 707 109 884 150C1080 194 1131 388 1320 298C1437 242 1519 140 1600 168V560H0V433Z" fill="url(#accent)" opacity="0.12"/>
+  <ellipse cx="1270" cy="212" rx="278" ry="178" fill="#00F5FF" opacity="0.08" filter="url(#soft)"/>
+  <ellipse cx="385" cy="405" rx="242" ry="100" fill="#FF2D95" opacity="0.11" filter="url(#soft)"/>
+
+  <g opacity="0.75">
+    <path class="dash" d="M116 437C286 256 462 311 632 176C804 39 978 173 1128 113C1293 47 1429 130 1512 80" stroke="url(#accent)" stroke-width="2"/>
+    <path class="dash" d="M84 172C258 221 398 129 552 220C742 332 833 474 1052 390C1236 319 1364 368 1516 286" stroke="#FF2D95" stroke-width="2" opacity="0.65"/>
+  </g>
+
+  <g class="float" filter="url(#glow)">
+    <circle cx="1244" cy="280" r="112" stroke="url(#gold)" stroke-width="2.5" opacity="0.9"/>
+    <circle cx="1244" cy="280" r="72" stroke="#00F5FF" stroke-width="1.6" opacity="0.75"/>
+    <path d="M1175 280C1175 242 1206 211 1244 211C1282 211 1313 242 1313 280C1313 318 1282 349 1244 349C1206 349 1175 318 1175 280Z" fill="#071220" stroke="#B9F7FF" stroke-width="2"/>
+    <path d="M1210 294L1234 236H1259L1285 324H1261L1256 305H1230L1223 324H1199L1210 294ZM1236 286H1251L1244 259L1236 286Z" fill="#00F5FF"/>
+    <path d="M1147 280H1068M1420 280H1341M1244 183V104M1244 456V377M1189 225L1132 168M1356 392L1299 335M1299 225L1356 168M1132 392L1189 335" stroke="#00F5FF" stroke-width="2" opacity="0.8"/>
+    <circle class="pulse" cx="1068" cy="280" r="7" fill="#00F5FF"/>
+    <circle class="pulse" cx="1420" cy="280" r="7" fill="#FF2D95"/>
+    <circle class="pulse" cx="1244" cy="104" r="7" fill="#FFF3A3"/>
+    <circle class="pulse" cx="1244" cy="456" r="7" fill="#7C3AED"/>
+  </g>
+
+  <g transform="translate(110 118)">
+    <rect x="0" y="0" width="666" height="310" rx="24" fill="#07111F" opacity="0.72" stroke="#234A64"/>
+    <rect x="22" y="22" width="622" height="58" rx="16" fill="#0B1F31" stroke="#17415B"/>
+    <circle cx="53" cy="51" r="8" fill="#FF2D95"/>
+    <circle cx="80" cy="51" r="8" fill="#FFF3A3"/>
+    <circle cx="107" cy="51" r="8" fill="#00F5FF"/>
+    <text x="139" y="58" fill="#9ADFFF" font-size="18" letter-spacing="2">/founder/os/ai-runtime</text>
+    <text x="34" y="132" fill="#00F5FF" font-size="22">system.identity</text>
+    <text x="34" y="176" fill="#F8FBFF" font-size="54" font-weight="800">ADEBAYO STEPHEN</text>
+    <text x="36" y="219" fill="#C8F8FF" font-size="25" font-weight="650">AI Engineer · Full Stack Builder · Agent Systems Founder</text>
+    <text x="36" y="263" fill="#8CAFC5" font-size="19">Building RELIC, security ecosystems, and autonomous multi-agent infrastructure.</text>
+  </g>
+
+  <g transform="translate(844 382)" opacity="0.9">
+    <rect x="0" y="0" width="600" height="72" rx="18" fill="#081524" stroke="#24485F"/>
+    <text x="28" y="45" fill="#BFFBFF" font-size="21" font-weight="700">AI CTO Platform</text>
+    <text x="220" y="45" fill="#FFB8DF" font-size="21" font-weight="700">Autonomous Agents</text>
+    <text x="470" y="45" fill="#FFF3A3" font-size="21" font-weight="700">RELIC</text>
+  </g>
+
+  <rect class="scan" x="-260" y="0" width="160" height="560" fill="url(#accent)" opacity="0.08"/>
+  <path d="M0 512H1600" stroke="url(#accent)" stroke-width="2" opacity="0.75"/>
+</svg>
