@@ -103,20 +103,6 @@
 
 ---
 
-<h1 align="center">🐍 My Contributions 🐍</h1>
-
-<br />
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Adebayodamilola20/Adebayodamilola20/output/github-snake-dark.svg" alt="Snake contribution animation" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Adebayodamilola20&theme=github_dark" alt="Contribution graph" width="100%" />
-</p>
-
----
-
 <h2>🧠 Focus Areas:</h2>
 
 ```txt
@@ -130,19 +116,6 @@ Multi-Agent Systems
 Security Platforms
 Founder Tools
 ```
-
----
-
-<h2>📌 Featured Repositories:</h2>
-
-<p align="center">
-  <a href="https://github.com/Adebayodamilola20/RELIC">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Adebayodamilola20&repo=RELIC&theme=github_dark&hide_border=true" alt="RELIC repository" />
-  </a>
-  <a href="https://github.com/Adebayodamilola20/PatrolSecurity_Ecosystem">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Adebayodamilola20&repo=PatrolSecurity_Ecosystem&theme=github_dark&hide_border=true" alt="Patrol Security Ecosystem repository" />
-  </a>
-</p>
 
 ---
 
