@@ -1,0 +1,64 @@
+<svg width="520" height="620" viewBox="0 0 520 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated ASCII style portrait of Adebayo Stephen">
+  <defs>
+    <clipPath id="avatar">
+      <circle cx="260" cy="220" r="142"/>
+    </clipPath>
+    <linearGradient id="ink" x1="92" y1="70" x2="430" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="0.45" stop-color="#E6F7FF"/>
+      <stop offset="1" stop-color="#FF4FA3"/>
+    </linearGradient>
+    <style>
+      @keyframes drawDown {
+        0% { clip-path: inset(0 0 100% 0); opacity: .2; }
+        18% { opacity: 1; }
+        72%,100% { clip-path: inset(0 0 0 0); opacity: 1; }
+      }
+      @keyframes cursor {
+        50% { opacity: 0; }
+      }
+      .ascii {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        font-size: 14px;
+        font-weight: 800;
+        letter-spacing: 1.2px;
+        fill: url(#ink);
+        animation: drawDown 5.8s steps(18,end) infinite;
+      }
+      .small {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        fill: #9CCFE0;
+      }
+      .cursor { animation: cursor .8s steps(1,end) infinite; }
+    </style>
+  </defs>
+
+  <rect width="520" height="620" rx="28" fill="#0D1117"/>
+  <rect x="1" y="1" width="518" height="618" rx="27" stroke="#30363D" stroke-width="2"/>
+  <rect x="30" y="30" width="460" height="430" rx="20" fill="#080D14" stroke="#30363D"/>
+
+  <g class="ascii">
+    <text x="70" y="74">................................</text>
+    <text x="70" y="96">.............:::::::............</text>
+    <text x="70" y="118">..........:############:........</text>
+    <text x="70" y="140">........:################:......</text>
+    <text x="70" y="162">.......####################.....</text>
+    <text x="70" y="184">......#########@@@@########.....</text>
+    <text x="70" y="206">.....######@@@######@@@####.....</text>
+    <text x="70" y="228">.....####@@  ########  @@##.....</text>
+    <text x="70" y="250">.....####@@  ########  @@##.....</text>
+    <text x="70" y="272">.....######@@###..###@@####.....</text>
+    <text x="70" y="294">......#########....########.....</text>
+    <text x="70" y="316">.......#########..########......</text>
+    <text x="70" y="338">........################........</text>
+    <text x="70" y="360">..........############..........</text>
+    <text x="70" y="382">.......::::########:::::........</text>
+    <text x="70" y="404">....:::::::########:::::::......</text>
+    <text x="70" y="426">..:::::::::########:::::::::....</text>
+  </g>
+
+  <rect x="30" y="486" width="460" height="88" rx="18" fill="#0D1117" stroke="#30363D"/>
+  <text class="small" x="54" y="522" font-size="16" font-weight="800">ADEBAYO STEPHEN</text>
+  <text class="small" x="54" y="552" font-size="14">AI Engineer / Full Stack Developer</text>
+  <rect class="cursor" x="354" y="538" width="9" height="18" rx="2" fill="#00E5FF"/>
+</svg>
