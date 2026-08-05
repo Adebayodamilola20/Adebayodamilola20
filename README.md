@@ -1,29 +1,6 @@
-<h2>🌙 About Me:</h2>
-
-<p>
-  <strong>AI Engineer · Full Stack Developer · Flutter Developer · React Developer</strong>
-</p>
-
-<p>
-  I am currently working on <strong>AI systems, full stack products, mobile apps, and autonomous agents</strong>.
-</p>
-
-<p>
-  I am building <strong>RELIC</strong>, <strong>Patrol Security Ecosystem</strong>, <strong>Autonomous AI Agents</strong>,
-  and <strong>Multi-Agent Systems</strong>.
-</p>
-
-<p>
-  I like building useful software with clean interfaces, strong backend systems, and practical AI workflows.
-</p>
-
-<p>
-  Ask me about <strong>React</strong>, <strong>Flutter</strong>, <strong>Node.js</strong>, <strong>Python</strong>,
-  <strong>AI agents</strong>, <strong>automation</strong>, and <strong>product engineering</strong>.
-</p>
-
-<p>
-  Fun fact: I build fast, but I care about making things feel polished.
+<p align="center">
+  <img src="./assets/profile-header.svg" width="100%"
+       alt="Adebayo Stephen — AI Engineer and Full Stack Developer. Building RELIC, Patrol Security Ecosystem, autonomous agents, and multi-agent systems." />
 </p>
 
 ---
