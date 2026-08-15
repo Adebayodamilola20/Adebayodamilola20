@@ -42,20 +42,6 @@
 
 ---
 
-<h1 align="center">🛠️ Languages-Frameworks-Tools 🛠️</h1>
-
-<br />
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,python,dart,react,nextjs,nodejs,express,flutter,fastapi,postgres,supabase,docker,githubactions,git,github,vscode,figma,firebase,mongodb" alt="Languages, frameworks, and tools" />
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,tailwind,redux,vercel,netlify,linux,bash,npm,pnpm,postman,prisma" alt="More tools" />
-</p>
-
----
-
 <h2>🚀 Current Projects:</h2>
 
 | Project | What I am building |
@@ -64,19 +50,6 @@
 | **Patrol Security Ecosystem** | Security operations platform for teams and field workflows |
 | **Autonomous AI Agents** | Agents for research, coding, review, automation, and operations |
 | **Multi-Agent Systems** | Model routing, memory, tool use, orchestration, and evaluation |
-
----
-
-<h2>📊 GitHub Stats:</h2>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Adebayodamilola20&show_icons=true&theme=github_dark&hide_border=true" height="170" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adebayodamilola20&layout=compact&theme=github_dark&hide_border=true" height="170" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Adebayodamilola20&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
-</p>
 
 ---
 
